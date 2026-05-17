@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "neutral_101",
+    "type": "neutral",
+    "title": "Донос в ЦК",
+    "description": "Вам пришёл анонимный донос на секретаря обкома. Его обвиняют в причастности к «экономическим преступлениям» и связях с еврейскими националистами.",
+    "option_a": {
+      "text": "Назначить проверку. Сменить секретаря.",
+      "effects": {"economy": 0, "elites": -10, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Уничтожить донос. Он незаконно собран.",
+      "effects": {"economy": 0, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_102",
+    "type": "neutral",
+    "title": "Вопрос о преемнике",
+    "description": "Члены Политбюро начали тихую борьбу за влияние. Молодой выдвиженец из Ленинграда предлагает программу «малых перемен», вызывая раздражение старой гвардии.",
+    "option_a": {
+      "text": "Поддержать молодого реформатора.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить всё как есть. Стабильность важнее.",
+      "effects": {"economy": 0, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_103",
+    "type": "neutral",
+    "title": "«Дело» главного инженера",
+    "description": "На крупном оборонном заводе арестован главный инженер по обвинению в «вредительстве». Элиты требуют показательного процесса, но инженер незаменим.",
+    "option_a": {
+      "text": "Провести показательный суд. Пример другим.",
+      "effects": {"economy": -10, "elites": 10, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Тихо закрыть дело. Сохранить специалиста.",
+      "effects": {"economy": 10, "elites": -10, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_104",
+    "type": "neutral",
+    "title": "Записка от Андропова",
+    "description": "Председатель КГБ докладывает о «неформальных связях» двух членов Политбюро с иностранными дипломатами. Доказательства шаткие.",
+    "option_a": {
+      "text": "Наказать обоих. Безопасность прежде всего.",
+      "effects": {"economy": 0, "elites": -10, "people": 0, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Проигнорировать. Компрометировать верхушку нельзя.",
+      "effects": {"economy": 0, "elites": 10, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"kgb_angry": true}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_105",
+    "type": "neutral",
+    "title": "Пенсионная реформа (обсуждение)",
+    "description": "Госплан предлагает повысить пенсионный возраст для инженеров и управленцев, чтобы сократить дефицит кадров. Это вызовет взрыв недовольства среди элит.",
+    "option_a": {
+      "text": "Принять реформу.",
+      "effects": {"economy": 10, "elites": -15, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться. Это слишком рискованно.",
+      "effects": {"economy": -5, "elites": 10, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_106",
+    "type": "neutral",
+    "title": "Антипартийная фракция?",
+    "description": "В ЦК распространился документ, критикующий экономическую политику. Авторы называют себя «сторонниками чистоты ленинизма».",
+    "option_a": {
+      "text": "Исключить критиков из партии.",
+      "effects": {"economy": 0, "elites": -10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Поручить комиссии разобраться.",
+      "effects": {"economy": 0, "elites": 5, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_107",
+    "type": "neutral",
+    "title": "Пьянство в Политбюро",
+    "description": "На закрытом совещании один из секретарей ЦК явился нетрезвым. Старая гвардия в ярости, его протеже просят о снисхождении.",
+    "option_a": {
+      "text": "Отправить на «лечение» в санаторий.",
+      "effects": {"economy": 0, "elites": 10, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Уволить с волчьим билетом.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_108",
+    "type": "neutral",
+    "title": "Кадровый голод в провинции",
+    "description": "Первый секретарь Новосибирского обкома умер от инфаркта. Талантливых управленцев на замену нет, нужен опытный москвич.",
+    "option_a": {
+      "text": "Назначить местного выдвиженца.",
+      "effects": {"economy": 5, "elites": -5, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Прислать проверенного человека из ЦК.",
+      "effects": {"economy": -5, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_109",
+    "type": "neutral",
+    "title": "Привилегии номенклатуры",
+    "description": "Анонимное письмо в «Правду» раскрывает подробности о спецраспределителях и закрытых поликлиниках для элиты. Народ возмущён.",
+    "option_a": {
+      "text": "Свернуть спецснабжение. Жить как все.",
+      "effects": {"economy": 0, "elites": -15, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Объявить письмо провокацией. Найти автора.",
+      "effects": {"economy": 0, "elites": 15, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_110",
+    "type": "neutral",
+    "title": "«Совещание у большого начальника»",
+    "description": "Часовая стрелка перевалила за полночь. Члены узкого круга требуют решать вопросы без «коллективного обсуждения», в «рабочем порядке».",
+    "option_a": {
+      "text": "Согласиться на «рабочий порядок».",
+      "effects": {"economy": 0, "elites": 15, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Настаивать на формальной процедуре.",
+      "effects": {"economy": 0, "elites": -10, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_201",
+    "type": "neutral",
+    "title": "Дефицит мяса в Москве",
+    "description": "В торговой сети столицы исчезла говядина. Очереди растут. Госплан предлагает изъять запасы из армии.",
+    "option_a": {
+      "text": "Бросить армию на помощь (изъять запасы).",
+      "effects": {"economy": 10, "elites": 0, "people": 10, "world_order": 0, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ввести карточки. Пусть терпят.",
+      "effects": {"economy": -5, "elites": 5, "people": -10, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_202",
+    "type": "neutral",
+    "title": "Провал плана по стали",
+    "description": "Кузнецкий металлургический комбинат отчитался о невыполнении плана на 12%. Директор ссылается на изношенное оборудование.",
+    "option_a": {
+      "text": "Снять директора. Отдать под суд.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Выделить фонды на модернизацию.",
+      "effects": {"economy": -10, "elites": 5, "people": 0, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_203",
+    "type": "neutral",
+    "title": "Теневая экономика растет",
+    "description": "КГБ докладывает о сети подпольных цехов в Узбекистане. Они производят дефицитные товары, но не платят налогов.",
+    "option_a": {
+      "text": "Разогнать и посадить организаторов.",
+      "effects": {"economy": 5, "elites": -5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Легализовать с высоким налогом.",
+      "effects": {"economy": 15, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_204",
+    "type": "neutral",
+    "title": "Неурожай зерновых",
+    "description": "Засуха уничтожила урожай в Казахстане и Поволжье. Под угрозой продовольственная безопасность страны.",
+    "option_a": {
+      "text": "Закупить зерно за границей (валютой).",
+      "effects": {"economy": -15, "elites": 0, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ввести жёсткие нормы выдачи хлеба.",
+      "effects": {"economy": 10, "elites": -5, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_205",
+    "type": "neutral",
+    "title": "Гигантомания на стройке",
+    "description": "Строительство БАМа требует колоссальных вливаний. Смета превышена в два раза, стройка замораживает другие проекты.",
+    "option_a": {
+      "text": "Продолжить ударными темпами.",
+      "effects": {"economy": -10, "elites": 10, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Заморозить объект. Сэкономить средства.",
+      "effects": {"economy": 10, "elites": -10, "people": -10, "world_order": 0, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_206",
+    "type": "neutral",
+    "title": "Алкогольная катастрофа",
+    "description": "Производство водки выросло, но производительность труда падает. Минздрав бьет тревогу: мужчины живут на 5 лет меньше.",
+    "option_a": {
+      "text": "Поднять цены на водку.",
+      "effects": {"economy": 10, "elites": 0, "people": -10, "world_order": 0, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Бороться с самогоноварением репрессиями.",
+      "effects": {"economy": -10, "elites": 5, "people": -5, "world_order": 0, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_207",
+    "type": "neutral",
+    "title": "Убыточный колхоз",
+    "description": "Председатель колхоза «Красный Октябрь» пишет, что земля истощена, а техника сломана. Просит списать долги.",
+    "option_a": {
+      "text": "Списать долги и прислать тракторы.",
+      "effects": {"economy": -10, "elites": 0, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Назначить проверку КРУ. Это вредительство.",
+      "effects": {"economy": 5, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_208",
+    "type": "neutral",
+    "title": "Золотая лихорадка в Сибири",
+    "description": "Геологи нашли богатое месторождение золота. Но для разработки нужны вложения и переселение рабочих.",
+    "option_a": {
+      "text": "Начать разработку любой ценой.",
+      "effects": {"economy": 15, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Продать лицензию иностранцам.",
+      "effects": {"economy": 15, "elites": -15, "people": -10, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_209",
+    "type": "neutral",
+    "title": "План по колбасе",
+    "description": "Зам. министра мясной промышленности предлагает добавить в колбасу 20% сои и целлюлозы, чтобы выполнить план.",
+    "option_a": {
+      "text": "Разрешить добавки. План превыше всего.",
+      "effects": {"economy": 10, "elites": 0, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Запретить. Качество важнее количества.",
+      "effects": {"economy": -10, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_210",
+    "type": "neutral",
+    "title": "Совхоз-миллионер",
+    "description": "Директор передового совхоза в Краснодарском крае просит разрешить продавать излишки на рынке по свободным ценам.",
+    "option_a": {
+      "text": "Разрешить эксперимент.",
+      "effects": {"economy": 10, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Пресечь. Это спекуляция.",
+      "effects": {"economy": -5, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_301",
+    "type": "neutral",
+    "title": "Письмо из Тбилиси",
+    "description": "Группа грузинской интеллигенции требует дать статус государственного грузинскому языку в Закавказье.",
+    "option_a": {
+      "text": "Пойти на уступки. Расширить полномочия.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ответить отказом. Единый язык — залог единства.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_302",
+    "type": "neutral",
+    "title": "Межнациональная драка в Ереване",
+    "description": "Стычка между армянами и азербайджанцами в общежитии переросла в массовое побоище. Местные власти бездействуют.",
+    "option_a": {
+      "text": "Ввести внутренние войска. Жестко наказать зачинщиков.",
+      "effects": {"economy": 0, "elites": -5, "people": -10, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Провести встречу старейшин. Уладить миром.",
+      "effects": {"economy": 0, "elites": 5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_303",
+    "type": "neutral",
+    "title": "Сионизм под судом?",
+    "description": "КГБ предлагает провести показательный процесс над группой «еврейских националистов», якобы связанных с Израилем.",
+    "option_a": {
+      "text": "Организовать суд. Ударить по врагам.",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться. Бояться международного скандала.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_304",
+    "type": "neutral",
+    "title": "Украинская интеллигенция",
+    "description": "Писатели из Киева просят снять цензуру с публикаций на украинском языке. Они обещают лояльность, но хотят «национального лица».",
+    "option_a": {
+      "text": "Ослабить цензуру. Пусть пишут.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Усилить контроль. Национализм опасен.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_305",
+    "type": "neutral",
+    "title": "Дело о «шапкозакидательстве» в Казахстане",
+    "description": "Первый секретарь Казахстана жалуется на наплыв русских специалистов, игнорирующих местные обычаи. Растет напряжение.",
+    "option_a": {
+      "text": "Отозвать русских специалистов.",
+      "effects": {"economy": -10, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Объявить выговор секретарю за национализм.",
+      "effects": {"economy": 5, "elites": 10, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_401",
+    "type": "neutral",
+    "title": "Скандальная выставка в Манеже",
+    "description": "Молодые художники устроили выставку авангардного искусства. Партийные чиновники требуют закрыть «мазню».",
+    "option_a": {
+      "text": "Разогнать выставку. Арестовать зачинщиков.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Позволить существовать в подвале. Не трогать.",
+      "effects": {"economy": 0, "elites": -10, "people": 5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_402",
+    "type": "neutral",
+    "title": "Самиздат «Хроники»",
+    "description": "По рукам ходит машинописный журнал, где описываются нарушения прав человека в СССР. КГБ нашел автора.",
+    "option_a": {
+      "text": "Посадить автора в лагерь.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Выслать за границу (сделать невозвращенцем).",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_403",
+    "type": "neutral",
+    "title": "Рок-музыка под запретом?",
+    "description": "Комсомол бьет тревогу: молодежь слушает западную музыку, играет на самодельных гитарах «бит». Это считается идеологической диверсией.",
+    "option_a": {
+      "text": "Запретить рок-музыку официально.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Организовать советский ВИА (ансамбль).",
+      "effects": {"economy": 0, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_404",
+    "type": "neutral",
+    "title": "Режиссер просит выезд",
+    "description": "Известный кинорежиссер просит разрешения поехать на фестиваль в Канны. Элиты боятся, что он не вернется.",
+    "option_a": {
+      "text": "Отпустить. Это престиж.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Не отпустить. Достаточно внутренних фестивалей.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_405",
+    "type": "neutral",
+    "title": "Шекспир или Фадеев?",
+    "description": "Главлит (цензура) запретил постановку пьесы современного драматурга из-за «чрезмерного трагизма», разрешив только классику.",
+    "option_a": {
+      "text": "Поддержать цензоров. Классика вне подозрений.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Разрешить пьесу. Искусство должно быть живым.",
+      "effects": {"economy": 0, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_501",
+    "type": "neutral",
+    "title": "Шпионский скандал в посольстве",
+    "description": "В американском посольстве в Москве обнаружен советский «жучок». США грозят разрывом отношений.",
+    "option_a": {
+      "text": "Отрицать всё. Это провокация.",
+      "effects": {"economy": 0, "elites": 5, "people": 5, "world_order": -15, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Извиниться и убрать жучки.",
+      "effects": {"economy": 0, "elites": -10, "people": -5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_502",
+    "type": "neutral",
+    "title": "Перебежчик из ГРУ",
+    "description": "Офицер ГРУ бежал в Лондон. Существует риск утечки шифров и агентуры.",
+    "option_a": {
+      "text": "Сменить все коды и отозвать агентов.",
+      "effects": {"economy": -10, "elites": -10, "people": 0, "world_order": 0, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Объявить его сумасшедшим. Ничего не менять.",
+      "effects": {"economy": 5, "elites": 0, "people": 0, "world_order": -10, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_503",
+    "type": "neutral",
+    "title": "Нарушение воздушного пространства",
+    "description": "Неопознанный самолет пересек границу СССР на Дальнем Востоке. ПВО сбила его. Оказалось — южнокорейский пассажирский лайнер.",
+    "option_a": {
+      "text": "Признать ошибку и выплатить компенсацию.",
+      "effects": {"economy": -5, "elites": -15, "people": -10, "world_order": 15, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Свалить вину на ЦРУ. Провокация.",
+      "effects": {"economy": 0, "elites": 10, "people": 15, "world_order": -20, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_504",
+    "type": "neutral",
+    "title": "Инцидент в Берлине",
+    "description": "Американские военные «случайно» блокировали советскую колонну на пути в Западный Берлин. Требуют извинений.",
+    "option_a": {
+      "text": "Послать танки на встречу.",
+      "effects": {"economy": 0, "elites": 10, "people": 10, "world_order": -20, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Объехать по другой дороге. Не усугублять.",
+      "effects": {"economy": 0, "elites": -10, "people": -5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_505",
+    "type": "neutral",
+    "title": "Торговля с врагом?",
+    "description": "Запад предлагает сделку: поставки зерна и технологий в обмен на советскую нефть. Элиты боятся зависимости.",
+    "option_a": {
+      "text": "Согласиться. Экономика важнее.",
+      "effects": {"economy": 15, "elites": -10, "people": 10, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться. Не кормить НАТО.",
+      "effects": {"economy": -10, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_601",
+    "type": "neutral",
+    "title": "Лунная программа буксует",
+    "description": "Конструкторы просят увеличить финансирование лунной программы, иначе американцы обгонят нас.",
+    "option_a": {
+      "text": "Выделить миллиарды на Луну.",
+      "effects": {"economy": -15, "elites": 10, "people": 10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Свернуть программу. Деньги — в сельское хозяйство.",
+      "effects": {"economy": 10, "elites": -10, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_602",
+    "type": "neutral",
+    "title": "Открытие новой частицы",
+    "description": "Физики в Дубне заявляют о фундаментальном открытии. Западные коллеги сомневаются в приоритете.",
+    "option_a": {
+      "text": "Опубликовать данные первыми.",
+      "effects": {"economy": 0, "elites": 10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Закрыть тему. Пусть думают, что это военная технология.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": -10, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_603",
+    "type": "neutral",
+    "title": "Кибернетика под колпаком",
+    "description": "Консервативные академики требуют закрыть «кибернетику» как буржуазную лженауку. Молодые ученые просят о защите.",
+    "option_a": {
+      "text": "Объявить кибернетику оружием врага.",
+      "effects": {"economy": -10, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Создать Институт кибернетики.",
+      "effects": {"economy": 15, "elites": -10, "people": 5, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_604",
+    "type": "neutral",
+    "title": "Клонирование овец?",
+    "description": "Биологи тайно просят разрешить эксперименты по клонированию. Это может перевернуть науку, но церковь и КГБ против.",
+    "option_a": {
+      "text": "Разрешить втайне.",
+      "effects": {"economy": 0, "elites": -15, "people": -10, "world_order": 0, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Запретить и уничтожить отчёты.",
+      "effects": {"economy": 0, "elites": 5, "people": 5, "world_order": 0, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_605",
+    "type": "neutral",
+    "title": "Провал в океане",
+    "description": "Советская подводная лодка затонула во время испытаний нового ракетного комплекса. Конструкторы говорят о системной ошибке.",
+    "option_a": {
+      "text": "Снять конструкторов. Назначить новых.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 5, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Продолжить испытания. Жертвы оправданы.",
+      "effects": {"economy": 0, "elites": -10, "people": -10, "world_order": -10, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_701",
+    "type": "neutral",
+    "title": "Забастовка на автозаводе",
+    "description": "Рабочие Горьковского автозавода прекратили работу, требуя повышения зарплаты и отмены сверхурочных.",
+    "option_a": {
+      "text": "Переговоры и повышение зарплат.",
+      "effects": {"economy": -10, "elites": -5, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Послать ОМОН. Забастовки в СССР нет.",
+      "effects": {"economy": 10, "elites": 5, "people": -20, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_702",
+    "type": "neutral",
+    "title": "Жалоба на прораба",
+    "description": "Рабочие стройки пишут, что прораб выдает зарплату «в конвертах» и заставляет работать в выходные. Профсоюз молчит.",
+    "option_a": {
+      "text": "Уволить прораба. Показать пример.",
+      "effects": {"economy": 0, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Перевести прораба на другой объект.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_703",
+    "type": "neutral",
+    "title": "Нормы выработки",
+    "description": "На шахте в Донбассе рабочие требуют снизить нормы выработки, установленные «молодыми специалистами из Госплана».",
+    "option_a": {
+      "text": "Снизить нормы.",
+      "effects": {"economy": -10, "elites": -5, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Увеличить премии за перевыполнение.",
+      "effects": {"economy": 5, "elites": 0, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_704",
+    "type": "neutral",
+    "title": "«Бригадный подряд»",
+    "description": "Передовая бригада строителей просит разрешить работать по «бригадному подряду» — получать деньги за объект, а не за часы.",
+    "option_a": {
+      "text": "Разрешить. Это повысит производительность.",
+      "effects": {"economy": 10, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Запретить. Это путь к частной собственности.",
+      "effects": {"economy": -5, "elites": 10, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_705",
+    "type": "neutral",
+    "title": "Невыплата зарплаты на севере",
+    "description": "В Магадане задерживают зарплату на три месяца. Люди грозятся уйти с работы в самый разгар навигации.",
+    "option_a": {
+      "text": "Перебросить деньги из Москвы самолётом.",
+      "effects": {"economy": -10, "elites": 0, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Послать уголовное дело на директора.",
+      "effects": {"economy": 5, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_801",
+    "type": "neutral",
+    "title": "Джинсы и фарца",
+    "description": "Молодёжь Москвы сходит с ума по западным джинсам. Спекулянты («фарцовщики») продают их по бешеным ценам.",
+    "option_a": {
+      "text": "Наладить производство советских джинсов.",
+      "effects": {"economy": 5, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Арестовывать фарцовщиков. Носить только советское.",
+      "effects": {"economy": -5, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_802",
+    "type": "neutral",
+    "title": "Очереди за икрой",
+    "description": "В Москве километровые очереди за красной икрой. Люди стоят с ночи. В ЦК считают, что это позор для социализма.",
+    "option_a": {
+      "text": "Выбросить икру на рынок (поднять цену).",
+      "effects": {"economy": 10, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Раздать икру по талонам ветеранам.",
+      "effects": {"economy": -5, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_803",
+    "type": "neutral",
+    "title": "Коммуналки и жильё",
+    "description": "Очередь на жильё в Ленинграде растянулась на 20 лет. Энтузиасты предлагают строить панельные дома-«хрущёвки».",
+    "option_a": {
+      "text": "Начать массовое панельное строительство.",
+      "effects": {"economy": -10, "elites": 0, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Строить капитальный кирпичный жилой фонд.",
+      "effects": {"economy": -15, "elites": 10, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_804",
+    "type": "neutral",
+    "title": "Стиляги",
+    "description": "В крупных городах появилась субкультура «стиляг» — яркая одежда, джаз, танцы. Комсомол требует их изолировать.",
+    "option_a": {
+      "text": "Критиковать, но не трогать.",
+      "effects": {"economy": 0, "elites": 0, "people": 5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Провести облавы и стрижки.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_805",
+    "type": "neutral",
+    "title": "Борьба с пьянством",
+    "description": "Рабочие пьют прямо на заводах. Производительность падает. МВД предлагает вырубать виноградники в Молдавии.",
+    "option_a": {
+      "text": "Вырубить виноградники.",
+      "effects": {"economy": -10, "elites": -5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Открыть вытрезвители и закодировать алкоголиков.",
+      "effects": {"economy": 5, "elites": 0, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_806",
+    "type": "neutral",
+    "title": "Студенческие стройотряды",
+    "description": "Студенты едут в Казахстан на целину, но жалуются на плохие бытовые условия и цингу.",
+    "option_a": {
+      "text": "Улучшить быт. Выделить витамины.",
+      "effects": {"economy": 0, "elites": 0, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Закалка. Неженки не нужны.",
+      "effects": {"economy": 5, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_807",
+    "type": "neutral",
+    "title": "Детские сады переполнены",
+    "description": "Женщины не могут выйти на работу, так как нет мест в детсадах. Экономика теряет миллионы рабочих рук.",
+    "option_a": {
+      "text": "Срочно построить сеть детсадов.",
+      "effects": {"economy": -10, "elites": 0, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Открыть группы продлённого дня в школах.",
+      "effects": {"economy": 0, "elites": 0, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_808",
+    "type": "neutral",
+    "title": "Проблема «неплановой беременности»",
+    "description": "Минздрав просит разрешить ввоз противозачаточных средств, чтобы снизить число абортов. Консерваторы против «разврата».",
+    "option_a": {
+      "text": "Разрешить ограниченный ввоз.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Усилить агитацию за «семью и детей».",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_809",
+    "type": "neutral",
+    "title": "Тунеядцы",
+    "description": "Верховный совет предлагает принять закон о борьбе с тунеядцами — людьми без официальной работы.",
+    "option_a": {
+      "text": "Принять закон. Отправлять в спецпоселения.",
+      "effects": {"economy": 5, "elites": 5, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отклонить. Право на труд — и на отдых.",
+      "effects": {"economy": -5, "elites": -5, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_810",
+    "type": "neutral",
+    "title": "Олимпийский переполох",
+    "description": "Спорткомитет просит допустить к Олимпиаде профессионалов из НХЛ, чтобы не ударить лицом в грязь перед американцами.",
+    "option_a": {
+      "text": "Пустить профессионалов. Надо побеждать.",
+      "effects": {"economy": 0, "elites": 10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Запретить. Чистота любительского спорта.",
+      "effects": {"economy": 0, "elites": -5, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_811",
+    "type": "neutral",
+    "title": "Футбол хулиганов",
+    "description": "После матча «Спартак» — «Динамо» болельщики разгромили вагоны метро. МВД просит отменить футбол.",
+    "option_a": {
+      "text": "Ужесточить наказание. Сажать на 15 суток.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отменить матчи на месяц.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_812",
+    "type": "neutral",
+    "title": "Хоккейная суперсерия",
+    "description": "Канадские профессионалы обыграли сборную СССР в хоккей. Тренеры просят оставить лучших игроков в СССР, а не отпускать в НХЛ.",
+    "option_a": {
+      "text": "Запретить отъезд в НХЛ.",
+      "effects": {"economy": 0, "elites": -5, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Пусть едут, но за валюту.",
+      "effects": {"economy": 10, "elites": -10, "people": 10, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_813",
+    "type": "neutral",
+    "title": "Памятник Ленину снесли",
+    "description": "В одном из украинских городов неизвестные снесли памятник Ленину. КГБ ищет «националистов».",
+    "option_a": {
+      "text": "Восстановить за неделю. Сурово наказать.",
+      "effects": {"economy": 0, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Поставить новый памятник, более современный.",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_814",
+    "type": "neutral",
+    "title": "Рождение двойняшек у ткачихи",
+    "description": "Героиня труда родила тройню. Пресса пишет о «героической матери». Народ требует улучшить жилищные условия для многодетных.",
+    "option_a": {
+      "text": "Дать квартиру и машину.",
+      "effects": {"economy": -5, "elites": 0, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ограничиться медалью и похвалой.",
+      "effects": {"economy": 5, "elites": 0, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_815",
+    "type": "neutral",
+    "title": "Доллар стоит 6 рублей?",
+    "description": "Чёрный рынок валюты расцвёл. Официальный курс — 1:1, но на улице доллар стоит 6 рублей. Экономисты просят девальвацию.",
+    "option_a": {
+      "text": "Провести девальвацию.",
+      "effects": {"economy": 10, "elites": 10, "people": -15, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Усилить борьбу с валютчиками.",
+      "effects": {"economy": -5, "elites": -5, "people": 5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_816",
+    "type": "neutral",
+    "title": "Проблема «лишних людей»",
+    "description": "На многих заводах сотрудников больше, чем нужно. Производительность низкая. Госплан предлагает массовые сокращения.",
+    "option_a": {
+      "text": "Сократить 10% сотрудников.",
+      "effects": {"economy": 15, "elites": -5, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить всех. Работа ради работы.",
+      "effects": {"economy": -10, "elites": 5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_817",
+    "type": "neutral",
+    "title": "Техногенная авария на химзаводе",
+    "description": "В Челябинске произошёл выброс ядовитых веществ. Местные власти скрывают масштабы. КГБ предлагает засекретить всё.",
+    "option_a": {
+      "text": "Рассекретить и эвакуировать людей.",
+      "effects": {"economy": -5, "elites": -15, "people": 10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Засекретить. Никакой паники.",
+      "effects": {"economy": 0, "elites": 10, "people": -15, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_818",
+    "type": "neutral",
+    "title": "Пожар в библиотеке АН",
+    "description": "В библиотеке Академии наук сгорели уникальные рукописи. Пожарные говорят о поджоге. Элиты видят заговор.",
+    "option_a": {
+      "text": "Назначить комиссию по расследованию.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Списать на ветхость. Не искать врагов.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_819",
+    "type": "neutral",
+    "title": "Землетрясение в Армении",
+    "description": "Подземные толчки разрушили несколько сёл. Нужна помощь. Местные власти не справляются.",
+    "option_a": {
+      "text": "Бросить армию на помощь.",
+      "effects": {"economy": 0, "elites": 5, "people": 15, "world_order": 0, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Послать врачей и стройматериалы.",
+      "effects": {"economy": -5, "elites": 0, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_820",
+    "type": "neutral",
+    "title": "Наводнение в Ленинграде",
+    "description": "Нева поднялась на 2 метра. Затоплены склады с продовольствием. Город на грани голода.",
+    "option_a": {
+      "text": "Открыть резервные склады армии.",
+      "effects": {"economy": 0, "elites": 0, "people": 15, "world_order": 0, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ввести жёсткие нормы выдачи.",
+      "effects": {"economy": 5, "elites": 5, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_821",
+    "type": "neutral",
+    "title": "Авария на шахте",
+    "description": "Взрыв метана на шахте в Караганде. Погибли 50 человек. Власти скрывают причины.",
+    "option_a": {
+      "text": "Открытое расследование. Выплатить семьям.",
+      "effects": {"economy": -5, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Объявить трёхдневный траур и забыть.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_822",
+    "type": "neutral",
+    "title": "Эпидемия холеры",
+    "description": "В порту Одессы зафиксирована холера. Карантин парализует торговлю. Врачи требуют вакцин из-за границы.",
+    "option_a": {
+      "text": "Купить вакцины на Западе.",
+      "effects": {"economy": -5, "elites": -5, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Закрыть порт. Лечить самим.",
+      "effects": {"economy": -10, "elites": 10, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_823",
+    "type": "neutral",
+    "title": "Шпион в космосе?",
+    "description": "Американский спутник сфотографировал секретный военный объект. КГБ предлагает сбить следующий спутник.",
+    "option_a": {
+      "text": "Сбить спутник лазером.",
+      "effects": {"economy": -5, "elites": 10, "people": 5, "world_order": -25, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Замаскировать объект.",
+      "effects": {"economy": -5, "elites": 0, "people": 0, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_824",
+    "type": "neutral",
+    "title": "Перехват кода",
+    "description": "Наши криптографы взломали код посольства США. Можно читать дипломатическую переписку.",
+    "option_a": {
+      "text": "Читать. Не давать повода.",
+      "effects": {"economy": 0, "elites": 10, "people": 0, "world_order": -10, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Сообщить США. Укрепление доверия.",
+      "effects": {"economy": 0, "elites": -15, "people": 0, "world_order": 15, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_825",
+    "type": "neutral",
+    "title": "Дезертирство в армии",
+    "description": "Участились случаи побегов из армии. Солдаты не хотят воевать.",
+    "option_a": {
+      "text": "Ужесточить наказание до расстрела.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -5, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Сократить срок службы.",
+      "effects": {"economy": 0, "elites": -10, "people": 15, "world_order": 0, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_826",
+    "type": "neutral",
+    "title": "Генералы против техники",
+    "description": "Старые генералы требуют сократить производство ракет и вернуться к «традиционной» войне. Молодые офицеры за новое оружие.",
+    "option_a": {
+      "text": "Сократить ракеты. Сэкономить.",
+      "effects": {"economy": 10, "elites": -5, "people": 0, "world_order": -10, "army": -15},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Уволить генералов. Дать дорогу молодым.",
+      "effects": {"economy": -10, "elites": -15, "people": 0, "world_order": 0, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_827",
+    "type": "neutral",
+    "title": "Голодовка заключённых",
+    "description": "Политзаключённые в Мордовии объявили голодовку, требуя пересмотра дел.",
+    "option_a": {
+      "text": "Пойти на уступки. Пересмотреть дела.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Кормить насильно. Никаких уступок.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_828",
+    "type": "neutral",
+    "title": "Бандитизм в Ташкенте",
+    "description": "В Ташкенте орудует банда, грабящая инкассаторов. Милиция бессильна. Предложение — ввести войска.",
+    "option_a": {
+      "text": "Ввести войска. Навести порядок.",
+      "effects": {"economy": 0, "elites": 10, "people": 5, "world_order": 0, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Уволить начальника милиции.",
+      "effects": {"economy": 0, "elites": -5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_829",
+    "type": "neutral",
+    "title": "Космический мусор",
+    "description": "Старый советский спутник упал в Канаде. Канадцы требуют компенсацию за загрязнение.",
+    "option_a": {
+      "text": "Выплатить компенсацию.",
+      "effects": {"economy": -5, "elites": 5, "people": -5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Заявить, что это американский спутник.",
+      "effects": {"economy": 0, "elites": 10, "people": 5, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_830",
+    "type": "neutral",
+    "title": "Проблема с часовыми поясами",
+    "description": "В стране 11 часовых поясов. Проводить совещания неудобно. Предложение — перевести всю страну на московское время.",
+    "option_a": {
+      "text": "Перевести всю страну на МСК.",
+      "effects": {"economy": -5, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить как есть.",
+      "effects": {"economy": 0, "elites": 0, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_831",
+    "type": "neutral",
+    "title": "Взятка в Госплане",
+    "description": "Раскрыта сеть взяточников, которые за деньги вносили фирмы в «закрытый перечень» поставщиков.",
+    "option_a": {
+      "text": "Показательный суд. Расстрелять.",
+      "effects": {"economy": 5, "elites": -10, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Тихо уволить. Не позорить систему.",
+      "effects": {"economy": -5, "elites": 10, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_832",
+    "type": "neutral",
+    "title": "Фальшивый коньяк",
+    "description": "В продаже появился фальшивый армянский коньяк. Подпольный цех работает под прикрытием КГБ.",
+    "option_a": {
+      "text": "Закрыть цех. Посадить всех.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить. Дают нал в бюджет.",
+      "effects": {"economy": 10, "elites": 10, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_833",
+    "type": "neutral",
+    "title": "Уничтожение архивов",
+    "description": "В КГБ предлагают уничтожить архивы 1930-х годов, чтобы «не дразнить общественность».",
+    "option_a": {
+      "text": "Уничтожить. Начать с чистого листа.",
+      "effects": {"economy": 0, "elites": 10, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Передать историкам. Пусть изучают.",
+      "effects": {"economy": 0, "elites": -10, "people": 5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_834",
+    "type": "neutral",
+    "title": "Секретный протокол к пакту",
+    "description": "Западные историки нашли в архивах секретный протокол 1939 года. Немцы требуют комментариев.",
+    "option_a": {
+      "text": "Отрицать подлинность.",
+      "effects": {"economy": 0, "elites": 5, "people": 5, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Признать. Извиниться перед Прибалтикой.",
+      "effects": {"economy": 0, "elites": -15, "people": -5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_835",
+    "type": "neutral",
+    "title": "Похищение учёного",
+    "description": "Ведущий специалист по лазерам пропал по дороге на работу. КГБ подозревает ЦРУ.",
+    "option_a": {
+      "text": "Обвинить США. Сорвать переговоры.",
+      "effects": {"economy": 0, "elites": 10, "people": 10, "world_order": -15, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Тихо искать. Не поднимать шум.",
+      "effects": {"economy": 0, "elites": -5, "people": 0, "world_order": 5, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_836",
+    "type": "neutral",
+    "title": "Бунт в колонии №7",
+    "description": "Заключённые захватили заложников. Требуют встречи с вами лично.",
+    "option_a": {
+      "text": "Пойти на переговоры.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Штурмовать. Не поддаваться шантажу.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": 0, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_837",
+    "type": "neutral",
+    "title": "Мода на дзюдо",
+    "description": "Секции дзюдо переполнены. Мальчишки не идут в ДОСААФ, а хотят быть как японцы. Военные бьют тревогу.",
+    "option_a": {
+      "text": "Открыть больше секций дзюдо.",
+      "effects": {"economy": 0, "elites": 0, "people": 10, "world_order": 5, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Закрыть дзюдо. Развивать самбо.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -5, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_838",
+    "type": "neutral",
+    "title": "Диссиденты на иновещании",
+    "description": "Радио «Свобода» передаёт выступления советских диссидентов. Глушение не помогает.",
+    "option_a": {
+      "text": "Усилить глушение. Закупить новые передатчики.",
+      "effects": {"economy": -5, "elites": 10, "people": 0, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Начать собственную контрпропаганду.",
+      "effects": {"economy": -10, "elites": 0, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_839",
+    "type": "neutral",
+    "title": "Смерть академика Сахарова?",
+    "description": "Сахаров находится в ссылке в Горьком. В КГБ ходят слухи о его слабом здоровье, но лечить не хотят.",
+    "option_a": {
+      "text": "Разрешить лечение в Москве.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Пусть лечится на месте. Дисциплина.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_840",
+    "type": "neutral",
+    "title": "Поэт читает с трибуны",
+    "description": "На вечере поэзии молодой автор прочитал стихи, которые публика сочла антисоветскими. Органы просят разрешить арест.",
+    "option_a": {
+      "text": "Арестовать. Пример другим.",
+      "effects": {"economy": 0, "elites": 10, "people": -15, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Объявить выговор. Пусть пишет дальше.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_841",
+    "type": "neutral",
+    "title": "Валютный магазин «Берёзка»",
+    "description": "Появились магазины «Берёзка» для иностранцев и моряков. Там есть всё. Граждане возмущены.",
+    "option_a": {
+      "text": "Открыть «Берёзки» для всех за рубли.",
+      "effects": {"economy": -10, "elites": 5, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Усилить охрану. Не пускать своих.",
+      "effects": {"economy": 5, "elites": 5, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_842",
+    "type": "neutral",
+    "title": "Автомобиль «Запорожец»",
+    "description": "Выпущен дешёвый народный автомобиль «Запорожец», но его качество ужасное. Народ прозвал его «горбатый».",
+    "option_a": {
+      "text": "Улучшить качество на заводе.",
+      "effects": {"economy": -10, "elites": -5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Не менять ничего. Всё равно купят.",
+      "effects": {"economy": 10, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_843",
+    "type": "neutral",
+    "title": "Телевизор в каждый дом",
+    "description": "План по производству телевизоров провален. Люди покупают их на чёрном рынке втридорога.",
+    "option_a": {
+      "text": "Закупить японские телевизоры.",
+      "effects": {"economy": -10, "elites": 0, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Увеличить выпуск своих.",
+      "effects": {"economy": 0, "elites": 0, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_844",
+    "type": "neutral",
+    "title": "Капустные очереди",
+    "description": "Очередь за капустой в сентябре растянулась на километр. Пенсионеры занимают места с ночи.",
+    "option_a": {
+      "text": "Увеличить закупки овощей.",
+      "effects": {"economy": -5, "elites": 0, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Привлечь милицию для порядка.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_845",
+    "type": "neutral",
+    "title": "Санитарный день в магазинах",
+    "description": "В крупных городах объявлен «санитарный день» — магазины закрыты. Население уверено, что это для вывоза дефицита для своих.",
+    "option_a": {
+      "text": "Отменить санитарные дни.",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить как есть. Порядок прежде всего.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_846",
+    "type": "neutral",
+    "title": "Доска почёта ВДНХ",
+    "description": "Решено обновить доску почёта на ВДНХ. Каждое министерство лоббирует своих «героев».",
+    "option_a": {
+      "text": "Распределить места по справедливости.",
+      "effects": {"economy": 0, "elites": 10, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Поместить на доску Ленина и Брежнева.",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_847",
+    "type": "neutral",
+    "title": "Подвиг комбайнёра",
+    "description": "Комбайнёр из Казахстана намолотил рекордное количество зерна. Пресса пишет о нём, но соседи жалуются, что он украл у них топливо.",
+    "option_a": {
+      "text": "Дать звание Героя. Снять жалобы.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Провести расследование.",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_848",
+    "type": "neutral",
+    "title": "Проблема с запчастями",
+    "description": "Тракторы стоят в полях из-за отсутствия запчастей. Колхозы разбирают новые тракторы на запчасти.",
+    "option_a": {
+      "text": "Наладить производство запчастей.",
+      "effects": {"economy": -10, "elites": 0, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Прислать военные ремонтные бригады.",
+      "effects": {"economy": 5, "elites": 0, "people": 0, "world_order": 0, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_849",
+    "type": "neutral",
+    "title": "«Золотая молодёжь»",
+    "description": "Дети высокопоставленных чиновников устраивают гонки в центре Москвы на иномарках. Возмущение в народе.",
+    "option_a": {
+      "text": "Лишить прав. Дать общественные работы.",
+      "effects": {"economy": 0, "elites": -10, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Замять дело. Родители слишком влиятельны.",
+      "effects": {"economy": 0, "elites": 10, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_850",
+    "type": "neutral",
+    "title": "Конец «сухого закона»",
+    "description": "В стране не хватает сахара — его скупают для самогона. «Сухой закон» привёл к расцвету самогоноварения.",
+    "option_a": {
+      "text": "Отменить сухой закон. Продавать водку.",
+      "effects": {"economy": 15, "elites": 5, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ужесточить наказание за самогон.",
+      "effects": {"economy": -5, "elites": 5, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_851",
+    "type": "neutral",
+    "title": "Русское лото",
+    "description": "Впервые разрешена лотерея «Русское лото». Билеты раскупают за час. Минфин в восторге, партия против азарта.",
+    "option_a": {
+      "text": "Разрешить. Пополнить бюджет.",
+      "effects": {"economy": 10, "elites": -5, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Запретить. Лотереи — зло.",
+      "effects": {"economy": -5, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_852",
+    "type": "neutral",
+    "title": "Программа «Время»",
+    "description": "Выходит новая информационная программа «Время». Она стала скучной и официозной. Народ переключает на западные голоса.",
+    "option_a": {
+      "text": "Сделать программу интереснее.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Усилить контроль. Пусть скучают.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_853",
+    "type": "neutral",
+    "title": "Субботник в Кремле",
+    "description": "Все чиновники вышли на субботник. Кто-то красит забор, кто-то подметает. Реакция народа неоднозначная.",
+    "option_a": {
+      "text": "Одобрить. Единство с народом.",
+      "effects": {"economy": 0, "elites": 5, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отменить. Пусть работают по местам.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_854",
+    "type": "neutral",
+    "title": "Гимн и флаг",
+    "description": "Обсуждается смена гимна и флага СССР. Консерваторы против, либералы за обновление.",
+    "option_a": {
+      "text": "Оставить старый гимн.",
+      "effects": {"economy": 0, "elites": 10, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять новый гимн.",
+      "effects": {"economy": 0, "elites": -10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_855",
+    "type": "neutral",
+    "title": "Памятник жертвам репрессий",
+    "description": "Интеллигенция предлагает поставить памятник жертвам 1937 года. КГБ категорически против.",
+    "option_a": {
+      "text": "Поставить памятник.",
+      "effects": {"economy": -5, "elites": -15, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказать. Не ворошить прошлое.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_856",
+    "type": "neutral",
+    "title": "«Письмо 46-ти»",
+    "description": "46 известных деятелей культуры подписали письмо в защиту опального режиссёра. Требуют не высылать его.",
+    "option_a": {
+      "text": "Не высылать. Пойти на уступки.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Выслать. Не поддаваться давлению.",
+      "effects": {"economy": 0, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_857",
+    "type": "neutral",
+    "title": "Болгария просит помощи",
+    "description": "Братская Болгария просит прислать зерно из-за неурожая. Самим мало, но отказать нельзя.",
+    "option_a": {
+      "text": "Отправить зерно.",
+      "effects": {"economy": -10, "elites": -5, "people": -5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказать. Свои люди важнее.",
+      "effects": {"economy": 5, "elites": -5, "people": 0, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_858",
+    "type": "neutral",
+    "title": "Кубинцы на стройке",
+    "description": "Отряд кубинских строителей работает на БАМе. Работают плохо, пьют ром. Местные недовольны.",
+    "option_a": {
+      "text": "Отправить их домой.",
+      "effects": {"economy": -5, "elites": 0, "people": 5, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить. Дружба важнее.",
+      "effects": {"economy": 0, "elites": 0, "people": -10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_859",
+    "type": "neutral",
+    "title": "Встреча на Эльбе",
+    "description": "Ветераны США и СССР хотят провести совместный митинг на Эльбе в память о встрече. КГБ против.",
+    "option_a": {
+      "text": "Разрешить. Дружба народов.",
+      "effects": {"economy": 0, "elites": -5, "people": 10, "world_order": 15, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Запретить. Пропаганда.",
+      "effects": {"economy": 0, "elites": 10, "people": -5, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_860",
+    "type": "neutral",
+    "title": "Эфиопский запрос",
+    "description": "Эфиопия (социалистическая) просит советских военных советников для борьбы с партизанами.",
+    "option_a": {
+      "text": "Отправить советников.",
+      "effects": {"economy": -5, "elites": 10, "people": 0, "world_order": -10, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказать. Не влезать.",
+      "effects": {"economy": 0, "elites": -10, "people": 0, "world_order": 5, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_861",
+    "type": "neutral",
+    "title": "Визит английской королевы?",
+    "description": "Британская королева рассматривает возможность визита в Москву. Это повысит престиж, но потребует огромных трат на протокол.",
+    "option_a": {
+      "text": "Пригласить. Пусть приезжает.",
+      "effects": {"economy": -10, "elites": 10, "people": 0, "world_order": 15, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказать. Нечего буржуям смотреть.",
+      "effects": {"economy": 0, "elites": -5, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_862",
+    "type": "neutral",
+    "title": "Фальшивые доллары",
+    "description": "КГБ раскрыл цех по печати фальшивых долларов. Предложение — пустить их в оборот через третьи страны.",
+    "option_a": {
+      "text": "Уничтожить цех.",
+      "effects": {"economy": 0, "elites": 5, "people": 0, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Использовать для подрыва экономики США.",
+      "effects": {"economy": 15, "elites": 0, "people": 0, "world_order": -25, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_863",
+    "type": "neutral",
+    "title": "Иммиграция из СССР",
+    "description": "Растёт число желающих уехать в Израиль. Еврейские организации предлагают вывозить всех желающих.",
+    "option_a": {
+      "text": "Отпускать всех евреев.",
+      "effects": {"economy": -5, "elites": -10, "people": 5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказать. Утечка мозгов.",
+      "effects": {"economy": 5, "elites": 10, "people": -5, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_864",
+    "type": "neutral",
+    "title": "Космический туризм",
+    "description": "Американцы предлагают отправить на станцию «Мир» первого космического туриста за миллион долларов.",
+    "option_a": {
+      "text": "Согласиться. Валюту платят.",
+      "effects": {"economy": 10, "elites": 0, "people": 5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказать. Космос не для богачей.",
+      "effects": {"economy": -5, "elites": 0, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_865",
+    "type": "neutral",
+    "title": "Конфликт с Норвегией",
+    "description": "Норвегия обвиняет СССР в нарушении границ в Баренцевом море из-за нефтяной платформы.",
+    "option_a": {
+      "text": "Убрать платформу.",
+      "effects": {"economy": -10, "elites": -5, "people": 0, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить. Пусть доказывают.",
+      "effects": {"economy": 10, "elites": 5, "people": 0, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_866",
+    "type": "neutral",
+    "title": "Помощь Вьетнаму",
+    "description": "Вьетнам просит списать многомиллиардный долг. Своя экономика трещит по швам.",
+    "option_a": {
+      "text": "Списать долг.",
+      "effects": {"economy": -15, "elites": 5, "people": 0, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказать. Самим есть нечего.",
+      "effects": {"economy": 5, "elites": -5, "people": 0, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_867",
+    "type": "neutral",
+    "title": "Канадская пшеница",
+    "description": "Урожай в Канаде огромен, и они предлагают дешёвую пшеницу в обмен на нефть.",
+    "option_a": {
+      "text": "Купить пшеницу.",
+      "effects": {"economy": -10, "elites": 0, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться. Своей хватит.",
+      "effects": {"economy": 5, "elites": 0, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_868",
+    "type": "neutral",
+    "title": "Школа шпионов",
+    "description": "В Подмосковье открылась школа по подготовке нелегалов. Расходы огромны, но эффект может быть высок.",
+    "option_a": {
+      "text": "Закрыть школу. Дорого.",
+      "effects": {"economy": 10, "elites": 0, "people": 0, "world_order": 5, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Расширить набор. Готовить больше.",
+      "effects": {"economy": -10, "elites": 0, "people": 0, "world_order": -10, "army": 15},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_869",
+    "type": "neutral",
+    "title": "«Холодная» весна",
+    "description": "Заморозки уничтожили посевы на юге. Аграрии предлагают пересевать, но семян нет.",
+    "option_a": {
+      "text": "Купить семена за границей.",
+      "effects": {"economy": -5, "elites": 0, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Посадить картошку. Не до жиру.",
+      "effects": {"economy": 5, "elites": 0, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_870",
+    "type": "neutral",
+    "title": "Фестиваль молодёжи",
+    "description": "В Москве проходит Всемирный фестиваль молодёжи и студентов. Иностранцы шокируют советских граждан свободой нравов.",
+    "option_a": {
+      "text": "Ослабить контроль. Пусть общаются.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 15, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Изолировать иностранцев в гостинице.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_871",
+    "type": "neutral",
+    "title": "Новый год без шампанского",
+    "description": "Накануне Нового года из продажи исчезло шампанское. Подпольные цены взлетели до небес.",
+    "option_a": {
+      "text": "Выбросить из госрезервов.",
+      "effects": {"economy": -5, "elites": 0, "people": 15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отменить праздник. Экономия.",
+      "effects": {"economy": 5, "elites": 5, "people": -15, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_872",
+    "type": "neutral",
+    "title": "Эпидемия гриппа",
+    "description": "В Москве эпидемия гриппа. Больницы переполнены. Лекарств нет.",
+    "option_a": {
+      "text": "Закупить лекарства в Финляндии.",
+      "effects": {"economy": -10, "elites": 0, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Лечить народными средствами.",
+      "effects": {"economy": 5, "elites": 0, "people": -10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_873",
+    "type": "neutral",
+    "title": "Пробка в Керченском проливе",
+    "description": "Из-за шторма в Керченском проливе стоят десятки кораблей с грузом. Экономика теряет миллионы.",
+    "option_a": {
+      "text": "Послать ледоколы (буксиры).",
+      "effects": {"economy": -5, "elites": 0, "people": 0, "world_order": 0, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ждать погоды.",
+      "effects": {"economy": -10, "elites": 0, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_874",
+    "type": "neutral",
+    "title": "Памятник Пушкину",
+    "description": "В Москве открывают памятник Пушкину. Он всем нравится, но кто-то написал на постаменте краской «Раб божий».",
+    "option_a": {
+      "text": "Смыть краску. Найти вандалов.",
+      "effects": {"economy": 0, "elites": 5, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить как есть. Свобода слова.",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  },
+  {
+    "id": "neutral_875",
+    "type": "neutral",
+    "title": "Прощание с комсомолом",
+    "description": "Комсомол потерял популярность. Молодёжь не идёт в организацию. Предлагают распустить или реформировать.",
+    "option_a": {
+      "text": "Реформировать. Дать больше свободы.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Распустить. Бесполезно.",
+      "effects": {"economy": 0, "elites": -10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    }
+  }
+]

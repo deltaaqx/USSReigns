@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "hist_1946_1",
+    "year": 1946,
+    "type": "historical",
+    "title": "Начало холодной войны",
+    "description": "5 марта 1946 года. Уинстон Черчилль в Фултоне произносит речь о «железном занавесе». Это считается официальным началом холодной войны.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"cold_war_started": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"cold_war_started": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1947_1",
+    "year": 1947,
+    "type": "historical",
+    "title": "План Маршалла",
+    "description": "5 июня 1947 года. США выдвигают программу экономической помощи Европе. СССР отказывается участвовать и запрещает странам Восточного блока принимать помощь.",
+    "option_a": {
+      "text": "Отказаться от участия.",
+      "effects": {"economy": -10, "elites": 5, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {"no_marshall_plan": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять помощь.",
+      "effects": {"economy": 10, "elites": -5, "people": 5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1948_0",
+    "year": 1948,
+    "type": "historical",
+    "title": "Разрыв с Тито",
+    "description": "28 июня 1948 года. Коминформ исключает Югославию из социалистического блока. Сталин и Тито становятся врагами. Первый раскол в соцлагере.",
+    "option_a": {
+      "text": "Осудить Тито и ввести санкции.",
+      "effects": {"economy": -5, "elites": 10, "people": -5, "world_order": -10, "army": 5},
+      "flags_set": {"tito_split": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Попытаться сохранить отношения.",
+      "effects": {"economy": 5, "elites": -10, "people": 0, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1948_1",
+    "year": 1948,
+    "type": "historical",
+    "title": "Берлинский кризис",
+    "description": "24 июня 1948 года. СССР начинает блокаду Западного Берлина, перекрывая все наземные пути. Запад отвечает воздушным мостом.",
+    "option_a": {
+      "text": "Продолжить блокаду.",
+      "effects": {"economy": -5, "elites": 5, "people": -5, "world_order": -15, "army": 5},
+      "flags_set": {"berlin_blockade": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Снять блокаду.",
+      "effects": {"economy": 5, "elites": -5, "people": 5, "world_order": 10, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1949_1",
+    "year": 1949,
+    "type": "historical",
+    "title": "Образование НАТО",
+    "description": "4 апреля 1949 года. США, Канада и 10 европейских стран создают военный блок НАТО. СССР считает это агрессивным альянсом.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": -10, "army": 0},
+      "flags_set": {"nato_created": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": -10, "army": 0},
+      "flags_set": {"nato_created": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1949_2",
+    "year": 1949,
+    "type": "historical",
+    "title": "Испытание первой советской атомной бомбы",
+    "description": "29 августа 1949 года. На Семипалатинском полигоне успешно испытана первая советская атомная бомба РДС-1. Монополия США закончена.",
+    "option_a": {
+      "text": "Сообщить миру.",
+      "effects": {"economy": -10, "elites": 15, "people": 15, "world_order": -10, "army": 10},
+      "flags_set": {"ussr_has_bomb": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Держать в секрете.",
+      "effects": {"economy": -10, "elites": 5, "people": 0, "world_order": 5, "army": 10},
+      "flags_set": {"ussr_has_bomb": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1950_1",
+    "year": 1950,
+    "type": "historical",
+    "title": "Начало войны в Корее",
+    "description": "25 июня 1950 года. Северная Корея при поддержке СССР и Китая нападает на Южную Корею. Начинается первый «горячий» конфликт холодной войны.",
+    "option_a": {
+      "text": "Поддержать Северную Корею.",
+      "effects": {"economy": -10, "elites": 5, "people": 5, "world_order": -15, "army": 10},
+      "flags_set": {"korean_war_start": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ограничиться дипломатией.",
+      "effects": {"economy": 5, "elites": -5, "people": -5, "world_order": 5, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1951_1",
+    "year": 1951,
+    "type": "historical",
+    "title": "Дело врачей",
+    "description": "Объявлено о раскрытии «заговора врачей-убийц», якобы готовивших покушение на советских лидеров. Растут антисемитские настроения.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": -5, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {"doctors_plot": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": -5, "people": -5, "world_order": -5, "army": 0},
+      "flags_set": {"doctors_plot": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1952_1",
+    "year": 1952,
+    "type": "historical",
+    "title": "XIX съезд КПСС",
+    "description": "5-14 октября 1952 года. Последний съезд при Сталине. Партия переименована из ВКП(б) в КПСС. Приняты новые директивы пятилетки.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1953_1",
+    "year": 1953,
+    "type": "historical",
+    "title": "Смерть Сталина",
+    "description": "5 марта 1953 года. Иосиф Виссарионович Сталин скончался на ближней даче. Страна погружается в траур и неопределённость.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"leader_stalin_dead": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"leader_stalin_dead": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1953_1b",
+    "year": 1953,
+    "type": "historical",
+    "title": "Казнь Берии",
+    "description": "26 июня 1953 года. Лаврентий Берия арестован и в декабре расстрелян по обвинению в 'измене Родине'. Хрущёв консолидирует власть.",
+    "option_a": {
+      "text": "Расстрелять Берию.",
+      "effects": {"economy": 0, "elites": 10, "people": 10, "world_order": 0, "army": -5},
+      "flags_set": {"beria_executed": true, "leader_khrushchev": true, "leader_stalin_dead": false}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отправить в лагерь пожизненно.",
+      "effects": {"economy": 0, "elites": -5, "people": 5, "world_order": 5, "army": 0},
+      "flags_set": {"leader_khrushchev": true, "leader_stalin_dead": false}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1953_2",
+    "year": 1953,
+    "type": "historical",
+    "title": "Подавление восстания в ГДР",
+    "description": "17 июня 1953 года. В ГДР вспыхивает антикоммунистическое восстание. Советские танки подавляют его.",
+    "option_a": {
+      "text": "Ввести танки.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": -15, "army": 5},
+      "flags_set": {"tanks_in_berlin": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Попытаться договориться.",
+      "effects": {"economy": 0, "elites": -10, "people": 5, "world_order": 5, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1954_1",
+    "year": 1954,
+    "type": "historical",
+    "title": "Передача Крыма УССР",
+    "description": "19 февраля 1954 года. Крымская область передана из состава РСФСР в состав УССР, приурочено к 300-летию Переяславской рады.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {"crimea_to_ukraine": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {"crimea_to_ukraine": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1955_1",
+    "year": 1955,
+    "type": "historical",
+    "title": "Создание Организации Варшавского договора",
+    "description": "14 мая 1955 года. В ответ на вступление ФРГ в НАТО СССР и его союзники создают военный блок — ОВД.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": -5, "elites": 10, "people": 0, "world_order": -10, "army": 10},
+      "flags_set": {"warsaw_pact": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": -5, "elites": 10, "people": 0, "world_order": -10, "army": 10},
+      "flags_set": {"warsaw_pact": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1956_1",
+    "year": 1956,
+    "type": "historical",
+    "title": "XX съезд КПСС и секретный доклад",
+    "description": "25 февраля 1956 года. Хрущёв выступает с секретным докладом «О культе личности и его последствиях», разоблачающим Сталина.",
+    "option_a": {
+      "text": "Огласить доклад.",
+      "effects": {"economy": 0, "elites": -15, "people": 15, "world_order": 10, "army": -5},
+      "flags_set": {"secret_speech": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ограничиться закрытым обсуждением.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1956_2",
+    "year": 1956,
+    "type": "historical",
+    "title": "Восстание в Венгрии",
+    "description": "23 октября 1956 года. В Будапеште начинается антисоветское восстание. Советские войска входят в город, подавляя его.",
+    "option_a": {
+      "text": "Подавить восстание.",
+      "effects": {"economy": -5, "elites": 10, "people": -15, "world_order": -15, "army": 10},
+      "flags_set": {"hungary_1956": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Вывести войска.",
+      "effects": {"economy": 0, "elites": -15, "people": 5, "world_order": 10, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1957_1",
+    "year": 1957,
+    "type": "historical",
+    "title": "Запуск первого спутника",
+    "description": "4 октября 1957 года. СССР запускает первый в мире искусственный спутник Земли. Начинается космическая гонка.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": -5, "elites": 15, "people": 15, "world_order": 5, "army": 5},
+      "flags_set": {"sputnik": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": -5, "elites": 15, "people": 15, "world_order": 5, "army": 5},
+      "flags_set": {"sputnik": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1958_1",
+    "year": 1958,
+    "type": "historical",
+    "title": "Кризис с Берлинским ультиматумом",
+    "description": "27 ноября 1958 года. Хрущёв предъявляет Западу ультиматум: вывести войска из Западного Берлина за 6 месяцев, иначе передача контроля ГДР.",
+    "option_a": {
+      "text": "Выдвинуть ультиматум.",
+      "effects": {"economy": 0, "elites": 10, "people": 5, "world_order": -15, "army": 5},
+      "flags_set": {"berlin_ultimatum": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отозвать ультиматум.",
+      "effects": {"economy": 0, "elites": -10, "people": 0, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1959_0",
+    "year": 1959,
+    "type": "historical",
+    "title": "Кубинская революция",
+    "description": "1 января 1959 года. Фидель Кастро и его повстанцы свергают режим Батисты на Кубе. В 90 милях от США появляется социалистическое государство.",
+    "option_a": {
+      "text": "Признать Кубу и предложить союз.",
+      "effects": {"economy": -5, "elites": 5, "people": 10, "world_order": -10, "army": 0},
+      "flags_set": {"cuba_ally": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Держать дистанцию, не провоцировать США.",
+      "effects": {"economy": 5, "elites": -5, "people": -5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1959_1",
+    "year": 1959,
+    "type": "historical",
+    "title": "Визит Хрущёва в США",
+    "description": "15-27 сентября 1959 года. Никита Хрущёв совершает первый в истории визит советского лидера в США. Встреча с Эйзенхауэром в Кэмп-Дэвиде.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": 10, "world_order": 10, "army": 0},
+      "flags_set": {"khrushchev_in_usa": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": 10, "world_order": 10, "army": 0},
+      "flags_set": {"khrushchev_in_usa": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1960_1",
+    "year": 1960,
+    "type": "historical",
+    "title": "Инцидент с Пауэрсом (U-2)",
+    "description": "1 мая 1960 года. Под Свердловском сбит американский самолёт-разведчик U-2 с пилотом Фрэнсисом Гэри Пауэрсом. Планировавшийся саммит в Париже срывается.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 10, "people": 10, "world_order": -15, "army": 5},
+      "flags_set": {"u2_incident": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 10, "people": 10, "world_order": -15, "army": 5},
+      "flags_set": {"u2_incident": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1960_2",
+    "year": 1960,
+    "type": "historical",
+    "title": "Год Африки",
+    "description": "1960 год. 17 африканских стран получают независимость. СССР видит в этом шанс расширить влияние и предлагает поддержку новым государствам.",
+    "option_a": {
+      "text": "Активно поддерживать деколонизацию.",
+      "effects": {"economy": -10, "elites": 5, "people": 5, "world_order": -10, "army": 5},
+      "flags_set": {"africa_support": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ограничиться дипломатическими заявлениями.",
+      "effects": {"economy": 0, "elites": -5, "people": 0, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1961_1",
+    "year": 1961,
+    "type": "historical",
+    "title": "Полёт Гагарина",
+    "description": "12 апреля 1961 года. Юрий Гагарин совершает первый в мире полёт в космос на корабле «Восток-1». Триумф советской науки.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": -5, "elites": 15, "people": 20, "world_order": 10, "army": 5},
+      "flags_set": {"gagarin_flight": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": -5, "elites": 15, "people": 20, "world_order": 10, "army": 5},
+      "flags_set": {"gagarin_flight": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1961_2",
+    "year": 1961,
+    "type": "historical",
+    "title": "Строительство Берлинской стены",
+    "description": "13 августа 1961 года. Власти ГДР при поддержке СССР начинают возводить бетонную стену между Восточным и Западным Берлином.",
+    "option_a": {
+      "text": "Поддержать строительство.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -15, "army": 5},
+      "flags_set": {"berlin_wall": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться от стены.",
+      "effects": {"economy": 0, "elites": -10, "people": 5, "world_order": 10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1962_1",
+    "year": 1962,
+    "type": "historical",
+    "title": "Карибский кризис",
+    "description": "22 октября 1962 года. США объявляют о блокаде Кубы после обнаружения советских ракет. Мир на грани ядерной войны.",
+    "option_a": {
+      "text": "Вывезти ракеты (компромисс).",
+      "effects": {"economy": 0, "elites": -10, "people": 5, "world_order": 20, "army": -10},
+      "flags_set": {"cuban_missiles_resolved": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить ракеты. Идти ва-банк.",
+      "effects": {"economy": -10, "elites": 10, "people": -10, "world_order": -30, "army": 10},
+      "flags_set": {"cuban_missiles_escalate": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1963_1",
+    "year": 1963,
+    "type": "historical",
+    "title": "Договор о запрещении ядерных испытаний",
+    "description": "5 августа 1963 года. СССР, США и Великобритания подписывают договор о запрещении ядерных испытаний в трёх средах (атмосфера, космос, под водой).",
+    "option_a": {
+      "text": "Подписать.",
+      "effects": {"economy": 5, "elites": 5, "people": 5, "world_order": 15, "army": -5},
+      "flags_set": {"test_ban_treaty": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться.",
+      "effects": {"economy": -5, "elites": -5, "people": -5, "world_order": -10, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1964_1",
+    "year": 1964,
+    "type": "historical",
+    "title": "Отставка Хрущёва",
+    "description": "14 октября 1964 года. Пленум ЦК освобождает Хрущёва от должностей. Первым секретарём избран Леонид Брежнев.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 15, "people": -5, "world_order": 5, "army": 0},
+      "flags_set": {"leader_brezhnev": true, "leader_khrushchev": false}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 15, "people": -5, "world_order": 5, "army": 0},
+      "flags_set": {"leader_brezhnev": true, "leader_khrushchev": false}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1964_2",
+    "year": 1964,
+    "type": "historical",
+    "title": "Тонкинский инцидент",
+    "description": "2 августа 1964 года. США заявляют об атаке северовьетнамских катеров на эсминец 'Мэддокс'. Начинается полномасштабное вмешательство США во Вьетнамскую войну.",
+    "option_a": {
+      "text": "Осудить США и усилить помощь Вьетнаму.",
+      "effects": {"economy": -5, "elites": 5, "people": 5, "world_order": -10, "army": 5},
+      "flags_set": {"vietnam_support": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ограничиться дипломатией.",
+      "effects": {"economy": 0, "elites": -5, "people": 0, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1965_1",
+    "year": 1965,
+    "type": "historical",
+    "title": "Косыгинские реформы",
+    "description": "1965 год. Председатель Совмина Косыгин начинает экономическую реформу: расширение хозяйственной самостоятельности предприятий.",
+    "option_a": {
+      "text": "Поддержать реформы.",
+      "effects": {"economy": 15, "elites": -10, "people": 10, "world_order": 0, "army": 0},
+      "flags_set": {"kosygin_reforms": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Свернуть реформы.",
+      "effects": {"economy": -10, "elites": 10, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1966_1",
+    "year": 1966,
+    "type": "historical",
+    "title": "Дело Синявского и Даниэля",
+    "description": "1966 год. Первый открытый суд над диссидентами. Писатели Синявский и Даниэль осуждены за публикации на Западе. Начало эпохи правозащитного движения.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {"sinyavsky_trial": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {"sinyavsky_trial": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1967_1",
+    "year": 1967,
+    "type": "historical",
+    "title": "Шестидневная война",
+    "description": "5-10 июня 1967 года. Израиль разгромил арабские армии. СССР разрывает дипломатические отношения с Израилем.",
+    "option_a": {
+      "text": "Разорвать отношения.",
+      "effects": {"economy": 0, "elites": 5, "people": 5, "world_order": -10, "army": 0},
+      "flags_set": {"ussr_breaks_with_israel": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Сохранить отношения.",
+      "effects": {"economy": 0, "elites": -10, "people": -5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1968_1",
+    "year": 1968,
+    "type": "historical",
+    "title": "Ввод войск в Чехословакию",
+    "description": "21 августа 1968 года. Войска стран Варшавского договора (включая СССР) вторгаются в Чехословакию для подавления «Пражской весны».",
+    "option_a": {
+      "text": "Ввести войска.",
+      "effects": {"economy": -5, "elites": 10, "people": -15, "world_order": -20, "army": 10},
+      "flags_set": {"czechoslovakia_invasion": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Не вводить.",
+      "effects": {"economy": 0, "elites": -15, "people": 10, "world_order": 15, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1968_2",
+    "year": 1968,
+    "type": "historical",
+    "title": "Наступление Тет во Вьетнаме",
+    "description": "30 января 1968 года. Вьетконг и северовьетнамская армия начинают масштабное наступление по всему Южному Вьетнаму. Антивоенные настроения в мире усиливаются.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 0, "people": 5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 0, "people": 5, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1969_1",
+    "year": 1969,
+    "type": "historical",
+    "title": "Остров Даманский",
+    "description": "2 марта 1969 года. Пограничный конфликт с Китаем на острове Даманский (река Уссури). Первое крупное столкновение между ядерными державами.",
+    "option_a": {
+      "text": "Дать военный отпор.",
+      "effects": {"economy": 0, "elites": 5, "people": 10, "world_order": -10, "army": 5},
+      "flags_set": {"damansky_conflict": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Решить дипломатией.",
+      "effects": {"economy": 0, "elites": -5, "people": -5, "world_order": 10, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1970_1",
+    "year": 1970,
+    "type": "historical",
+    "title": "Договор с ФРГ",
+    "description": "12 августа 1970 года. СССР и ФРГ подписывают Московский договор о признании послевоенных границ. Начало 'восточной политики' Брандта и разрядки в Европе.",
+    "option_a": {
+      "text": "Подписать договор.",
+      "effects": {"economy": 5, "elites": -5, "people": 10, "world_order": 15, "army": -5},
+      "flags_set": {"moscow_treaty_1970": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ужесточить позиции.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": -10, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1971_1",
+    "year": 1971,
+    "type": "historical",
+    "title": "XXIV съезд КПСС и Программа мира",
+    "description": "30 марта 1971 года. Брежнев провозглашает «Программу мира» — концепцию мирного сосуществования.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": 5, "world_order": 10, "army": 0},
+      "flags_set": {"peace_program": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": 5, "world_order": 10, "army": 0},
+      "flags_set": {"peace_program": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1972_1",
+    "year": 1972,
+    "type": "historical",
+    "title": "Договор ОСВ-1",
+    "description": "26 мая 1972 года. Брежнев и Никсон подписывают Договор об ограничении стратегических вооружений (ОСВ-1) и ПРО.",
+    "option_a": {
+      "text": "Подписать.",
+      "effects": {"economy": 10, "elites": 10, "people": 5, "world_order": 15, "army": -10},
+      "flags_set": {"SALT1_signed": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться.",
+      "effects": {"economy": -10, "elites": -10, "people": -5, "world_order": -10, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1973_1",
+    "year": 1973,
+    "type": "historical",
+    "title": "Нефтяной кризис и разрядка",
+    "description": "1973 год. Арабское эмбарго на нефть. СССР, как экспортёр нефти, получает сверхдоходы, что позволяет закупать зерно на Западе.",
+    "option_a": {
+      "text": "Использовать доходы.",
+      "effects": {"economy": 15, "elites": 10, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {"oil_boom": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Вкладывать в военку.",
+      "effects": {"economy": -5, "elites": 15, "people": 5, "world_order": -5, "army": 15},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1974_1",
+    "year": 1974,
+    "type": "historical",
+    "title": "Высылка Солженицына",
+    "description": "13 февраля 1974 года. Александра Солженицына арестовывают, лишают гражданства и высылают из СССР в ФРГ.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {"solzhenitsyn_expelled": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {"solzhenitsyn_expelled": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1975_1",
+    "year": 1975,
+    "type": "historical",
+    "title": "Хельсинкские соглашения",
+    "description": "1 августа 1975 года. СССР подписывает Заключительный акт СБСЕ, признавая права человека и нерушимость границ в Европе.",
+    "option_a": {
+      "text": "Подписать.",
+      "effects": {"economy": 0, "elites": -10, "people": 10, "world_order": 15, "army": -5},
+      "flags_set": {"helsinki_accords": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться.",
+      "effects": {"economy": 0, "elites": 10, "people": -5, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1976_1",
+    "year": 1976,
+    "type": "historical",
+    "title": "XXV съезд КПСС",
+    "description": "24 февраля 1976 года. Съезд КПСС подтверждает курс на стабильность и разрядку. Принята программа «эффективности и качества».",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1976_2",
+    "year": 1976,
+    "type": "historical",
+    "title": "Перебежчик на МиГ-25",
+    "description": "6 сентября 1976 года. Лётчик Виктор Беленко угоняет новейший истребитель МиГ-25 в Японию. Секретные технологии попадают в руки американцев.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": -5, "elites": -10, "people": 0, "world_order": -10, "army": -15},
+      "flags_set": {"mig25_defection": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": -5, "elites": -10, "people": 0, "world_order": -10, "army": -15},
+      "flags_set": {"mig25_defection": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1977_1",
+    "year": 1977,
+    "type": "historical",
+    "title": "Конституция развитого социализма",
+    "description": "7 октября 1977 года. Принята новая Конституция СССР, закрепившая руководящую роль партии и «развитой социализм».",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 10, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"brezhnev_constitution": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 10, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"brezhnev_constitution": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1978_1",
+    "year": 1978,
+    "type": "historical",
+    "title": "Первый международный экипаж в космосе",
+    "description": "1978 год. Советский космонавт и чехословацкий космонавт впервые образуют международный экипаж на станции «Салют-6». Программа «Интеркосмос» набирает обороты.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": 10, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1978_2",
+    "year": 1978,
+    "type": "historical",
+    "title": "Апрельская революция в Афганистане",
+    "description": "27 апреля 1978 года. В Афганистане происходит военный переворот. К власти приходят просоветские силы во главе с Тараки. Обстановка в стране быстро дестабилизируется.",
+    "option_a": {
+      "text": "Поддержать новое правительство.",
+      "effects": {"economy": -5, "elites": 5, "people": 0, "world_order": -5, "army": 5},
+      "flags_set": {"afghan_april_revolution": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Сохранять нейтралитет.",
+      "effects": {"economy": 0, "elites": -5, "people": 0, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1979_1",
+    "year": 1979,
+    "type": "historical",
+    "title": "Ввод войск в Афганистан",
+    "description": "25 декабря 1979 года. Ограниченный контингент советских войск входит в Афганистан для поддержки свергнутого правительства. Начинается десятилетняя война.",
+    "option_a": {
+      "text": "Ввести войска.",
+      "effects": {"economy": -10, "elites": 5, "people": -10, "world_order": -20, "army": -10},
+      "flags_set": {"afghanistan_war": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Не вводить.",
+      "effects": {"economy": 5, "elites": -10, "people": 5, "world_order": 10, "army": 5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1980_1",
+    "year": 1980,
+    "type": "historical",
+    "title": "Бойкот Олимпиады в Москве",
+    "description": "20 июля 1980 года. США и 65 стран бойкотируют Московскую Олимпиаду в знак протеста против войны в Афганистане.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": -10, "elites": -5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {"olympic_boycott": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": -10, "elites": -5, "people": -10, "world_order": -10, "army": 0},
+      "flags_set": {"olympic_boycott": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1980_2",
+    "year": 1980,
+    "type": "historical",
+    "title": "Солидарность в Польше",
+    "description": "Август-сентябрь 1980 года. В Гданьске создан независимый профсоюз 'Солидарность' во главе с Лехом Валенсой. СССР видит угрозу социалистическому лагерю.",
+    "option_a": {
+      "text": "Давить на польские власти для подавления.",
+      "effects": {"economy": -5, "elites": 10, "people": -10, "world_order": -10, "army": 5},
+      "flags_set": {"solidarity_threat": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Позволить Польше самой решать.",
+      "effects": {"economy": 0, "elites": -10, "people": 5, "world_order": 5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1981_1",
+    "year": 1981,
+    "type": "historical",
+    "title": "XXVI съезд КПСС",
+    "description": "23 февраля 1981 года. Съезд КПСС подтверждает курс Брежнева, но уже заметны застойные явления. Продовольственная программа объявлена приоритетной.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1982_1",
+    "year": 1982,
+    "type": "historical",
+    "title": "Смерть Брежнева",
+    "description": "10 ноября 1982 года. Леонид Ильич Брежнев скончался. Власть переходит к Юрию Андропову.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {"leader_andropov": true, "leader_brezhnev": false}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {"leader_andropov": true, "leader_brezhnev": false}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1983_1",
+    "year": 1983,
+    "type": "historical",
+    "title": "Убийство в Южной Корее (KAL-007)",
+    "description": "1 сентября 1983 года. Советский истребитель сбивает южнокорейский пассажирский «Боинг» над Сахалином. Погибают 269 человек.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": -10, "people": -10, "world_order": -20, "army": -5},
+      "flags_set": {"KAL007": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": -10, "people": -10, "world_order": -20, "army": -5},
+      "flags_set": {"KAL007": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1983_2",
+    "year": 1983,
+    "type": "historical",
+    "title": "Стратегическая оборонная инициатива (СОИ)",
+    "description": "23 марта 1983 года. Рейган объявляет о программе 'Звёздных войн' — космической системы ПРО. Гонка вооружений выходит в космос.",
+    "option_a": {
+      "text": "Начать свою программу ПРО.",
+      "effects": {"economy": -15, "elites": 10, "people": 5, "world_order": -15, "army": 15},
+      "flags_set": {"star_wars_response": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Ограничиться дипломатическим протестом.",
+      "effects": {"economy": 0, "elites": -5, "people": -5, "world_order": 5, "army": -5},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1984_1",
+    "year": 1984,
+    "type": "historical",
+    "title": "Смерть Андропова и приход Черненко",
+    "description": "9 февраля 1984 года. Юрий Андропов умирает после долгой болезни. Генсеком избран Константин Черненко.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {"leader_chernenko": true, "leader_andropov": false}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": 5, "people": -5, "world_order": 0, "army": 0},
+      "flags_set": {"leader_chernenko": true, "leader_andropov": false}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1985_1",
+    "year": 1985,
+    "type": "historical",
+    "title": "Начало перестройки",
+    "description": "Апрель 1985 года. Горбачёв провозглашает курс на ускорение социально-экономического развития — перестройку.",
+    "option_a": {
+      "text": "Начать перестройку.",
+      "effects": {"economy": -10, "elites": -15, "people": 15, "world_order": 10, "army": -5},
+      "flags_set": {"leader_gorbachev": true, "perestroika": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Сохранить курс.",
+      "effects": {"economy": 5, "elites": 10, "people": -10, "world_order": -5, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1986_1",
+    "year": 1986,
+    "type": "historical",
+    "title": "Авария на Чернобыльской АЭС",
+    "description": "26 апреля 1986 года. Крупнейшая техногенная катастрофа в истории. Реактор ЧАЭС взрывается. Радиоактивное облако накрывает Европу.",
+    "option_a": {
+      "text": "Эвакуировать зону (признать).",
+      "effects": {"economy": -15, "elites": -10, "people": 10, "world_order": 5, "army": -5},
+      "flags_set": {"chernobyl": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Засекретить всё.",
+      "effects": {"economy": -5, "elites": 5, "people": -15, "world_order": -10, "army": 0},
+      "flags_set": {"chernobyl_secret": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1987_1",
+    "year": 1987,
+    "type": "historical",
+    "title": "Договор о РСМД",
+    "description": "8 декабря 1987 года. Горбачёв и Рейган подписывают Договор о ликвидации ракет средней и меньшей дальности. Настоящая разрядка.",
+    "option_a": {
+      "text": "Подписать.",
+      "effects": {"economy": 10, "elites": -10, "people": 10, "world_order": 20, "army": -10},
+      "flags_set": {"INF_treaty": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Отказаться.",
+      "effects": {"economy": -5, "elites": 5, "people": -5, "world_order": -10, "army": 10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1988_1",
+    "year": 1988,
+    "type": "historical",
+    "title": "Вывод войск из Афганистана",
+    "description": "15 мая 1988 года. Начинается вывод советских войск из Афганистана. Завершается 15 февраля 1989.",
+    "option_a": {
+      "text": "Вывести войска.",
+      "effects": {"economy": 10, "elites": -5, "people": 15, "world_order": 10, "army": 5},
+      "flags_set": {"afghanistan_withdrawal": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить войска.",
+      "effects": {"economy": -10, "elites": 5, "people": -15, "world_order": -10, "army": -10},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1989_1",
+    "year": 1989,
+    "type": "historical",
+    "title": "Падение Берлинской стены",
+    "description": "9 ноября 1989 года. Под давлением граждан ГДР стена падает. Символ окончания холодной войны.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": -10, "people": 15, "world_order": 20, "army": -5},
+      "flags_set": {"wall_falls": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": -10, "people": 15, "world_order": 20, "army": -5},
+      "flags_set": {"wall_falls": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1989_2",
+    "year": 1989,
+    "type": "historical",
+    "title": "I Съезд народных депутатов",
+    "description": "25 мая - 9 июня 1989 года. Первые относительно свободные выборы. Съезд транслируется по ТВ. Начинается политическая борьба.",
+    "option_a": {
+      "text": "Ок.",
+      "effects": {"economy": 0, "elites": -15, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {"congress_of_deputies": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Принять к сведению.",
+      "effects": {"economy": 0, "elites": -15, "people": 15, "world_order": 5, "army": 0},
+      "flags_set": {"congress_of_deputies": true}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1990_1",
+    "year": 1990,
+    "type": "historical",
+    "title": "Отмена 6-й статьи Конституции",
+    "description": "Февраль-март 1990 года. Отменена монополия КПСС на власть. Введён пост Президента СССР. Горбачёв избран президентом.",
+    "option_a": {
+      "text": "Отменить статью.",
+      "effects": {"economy": 0, "elites": -20, "people": 15, "world_order": 10, "army": -10},
+      "flags_set": {"article6_removed": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Оставить статью.",
+      "effects": {"economy": 0, "elites": 10, "people": -15, "world_order": -10, "army": 0},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  },
+  {
+    "id": "hist_1991_1",
+    "year": 1991,
+    "type": "historical",
+    "title": "Августовский путч",
+    "description": "19-21 августа 1991 года. Консерваторы из ГКЧП пытаются отстранить Горбачёва. Ельцин руководит обороной Белого дома. Путч проваливается.",
+    "option_a": {
+      "text": "Поддержать ГКЧП.",
+      "effects": {"economy": -5, "elites": -10, "people": -15, "world_order": -15, "army": 5},
+      "flags_set": {"coup_failed": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Поддержать Ельцина.",
+      "effects": {"economy": -5, "elites": -15, "people": 15, "world_order": 10, "army": -5},
+      "flags_set": {"Yeltsin_rise": true}, "flags_require": {}
+    },
+    "triggers_next_year": false
+  },
+  {
+    "id": "hist_1991_2",
+    "year": 1991,
+    "type": "historical",
+    "title": "Беловежские соглашения. Распад СССР",
+    "description": "8 декабря 1991 года. Лидеры России, Украины и Беларуси подписывают соглашение о прекращении существования СССР. 25 декабря Горбачёв уходит в отставку.",
+    "option_a": {
+      "text": "Подписать (конец игры).",
+      "effects": {"economy": 0, "elites": 0, "people": 0, "world_order": 0, "army": 0},
+      "flags_set": {"game_over_historical": true}, "flags_require": {}
+    },
+    "option_b": {
+      "text": "Сопротивляться.",
+      "effects": {"economy": -50, "elites": -50, "people": -50, "world_order": -50, "army": -50},
+      "flags_set": {}, "flags_require": {}
+    },
+    "triggers_next_year": true
+  }
+]
